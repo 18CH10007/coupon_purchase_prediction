@@ -1,8 +1,7 @@
 # Kaggle-Coupon-Purchase-Prediction
 
-Code for [Coupon Purchase Prediction](https://www.kaggle.com/c/coupon-purchase-prediction) (RECRUIT Challenge).
+Code for [Coupon Purchase Prediction](https://www.kaggle.com/c/coupon-purchase-prediction)
 
-Note: This code is able to achieve a 5th place score (Private LB: 0.008776). But this is not a full version of my submitted solution (Private LB: 0.008905). My submitted solution is average of this solution and another XGBoost solution. This repositoy provides a simple version of 5th place solution. 
 
 ## Dependency (development environment)
 
@@ -26,5 +25,3 @@ validation-set: last 4 weeks.
     $ ./run.sh
     $ ls -la submission_mlp.csv
 
-It takes around 5 hours on 4 core CPU and 16GB RAM.
-If you get an out-of-memory error, use `run_low_memory.sh`.
